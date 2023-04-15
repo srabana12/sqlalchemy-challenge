@@ -12,9 +12,9 @@ The station analysis calculates the total number of stations in the dataset and 
 
 <b>Climate App</b>
 
-The welcome() route provides a list of available routes, including 
-/api/v1.0/precipitation, which returns the precipitation data for the last 12 months, 
-/api/v1.0/stations, which returns a list of all the weather stations, and 
+The welcome() route provides a list of available routes, including <br>
+/api/v1.0/precipitation, which returns the precipitation data for the last 12 months,  <br>
+/api/v1.0/stations, which returns a list of all the weather stations, and  <br>
 /api/v1.0/tobs, which returns the temperature data for the last year for the station with the highest number of observations.
 
 The /api/v1.0/start/end route allows the user to specify a start and end date range and returns the minimum, maximum, and average temperatures for that range. If only a start date is specified, the route returns the same temperature statistics for all dates from the start date to the last date in the database.
